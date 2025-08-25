@@ -31,8 +31,9 @@ function convertTemperatureToFahrenheit(celcius, kelvin) {
     const kelvinToFahrenheit = (9/5 * (kelvin - 273) + 32).toFixed(2);
 
     if ((celcius <= 0 || celcius >= 0) && (kelvin <=0 || kelvin >=0)) {
-        console.log(`Fahrenheit when celcius is ${celcius} = ${celciustoFahrenheit} and fahrenheit is ${fahrenheit} = ${kelvinToFahrenheit}.`);
+        console.log(`Fahrenheit when celcius is ${celcius} = ${celciustoFahrenheit} and kelvin is ${kelvin} = ${kelvinToFahrenheit}.`);
     }else {
         console.log(`not possible`);
     }
 }
+convertTemperatureToFahrenheit(0,0)
