@@ -1,6 +1,3 @@
-let celcius;
-let kelvin;
-let fahrenheit;
 function convertTemperatureToCelcius(kelvin, fahrenheit) {
 
     const kelvinToCelcius = (kelvin - 273).toFixed(2);
