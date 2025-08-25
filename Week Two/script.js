@@ -36,4 +36,3 @@ function convertTemperatureToFahrenheit(celcius, kelvin) {
         console.log(`not possible`);
     }
 }
-convertTemperatureToFahrenheit(0,0)
